@@ -100,9 +100,9 @@ a.skip{
 
 }
 
-.intro{
-  background: url(../images/header.jpg);
+div.intro{
   background-color: #DDDDDD, #858585, #707070, #B3B3B3;
+  background-image: url(../images/header.jpg);
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -232,10 +232,6 @@ img {
   }
 
 }
-
-
-
-
 
 
 
