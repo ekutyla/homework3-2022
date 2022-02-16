@@ -109,40 +109,40 @@ a:focus{
 }
 
 .about{
-  grid-area: 1 / 2 / 1 / 2;
+  grid-area: 1 / 2 / auto / auto;
 }
 .about-image{
-  grid-area: 1 / 1 / 1 / span 3;
+  grid-area: 1 / 1 / auto / span 3;
   max-height: 500px;
   overflow: hidden;
 }
 
 .clients{
-  grid-area: 2 / 2 / 2 / 2;
+  grid-area: 2 / 2 / auto / auto;
 }
 
 .clients-image{
-  grid-area: 2 / 1 / 2 / span 3;
+  grid-area: 2 / 1 / auto / span 3;
   max-height: 500px;
   overflow: hidden;
 }
 
 .method{
-  grid-area: 3 / 2 / 3 / 2;
+  grid-area: 3 / 2 / auto / auto;
 }
 
 .method-image{
-  grid-area: 3 / 1 / 3 / span 3;
+  grid-area: 3 / 1 / auto / span 3;
   max-height: 500px;
   overflow: hidden;
 }
 
 .contact{
-  grid-area: 4 / 2 / 4 / 2;
+  grid-area: 4 / 2 / auto / auto;
 }
 
 .contact-image{
-  grid-area: 4 / 1 / 4 / span 3;
+  grid-area: 4 / 1 / auto / span 3;
   max-height: 500px;
   overflow: hidden;
 }
@@ -176,6 +176,7 @@ img {
   }
 
   .container{
+    display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: repeat(4, 300px);
   }
@@ -189,8 +190,6 @@ img {
   }
 
 }
-
-
 
 
 
